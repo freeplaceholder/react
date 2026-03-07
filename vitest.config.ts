@@ -1,5 +1,4 @@
 import { defineConfig } from "vitest/config";
-import path from "path";
 
 export default defineConfig({
   test: {
@@ -16,11 +15,6 @@ export default defineConfig({
         branches: 100,
         statements: 100,
       },
-    },
-  },
-  resolve: {
-    alias: {
-      "@freeplaceholder/core": path.resolve(__dirname, "../core/src/index.ts"),
     },
   },
 });
