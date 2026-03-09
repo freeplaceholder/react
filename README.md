@@ -119,7 +119,7 @@ Renders an avatar image as an `<img>` element.
   grayscale={false}
   border={1}
   borderColor="059669"
-  className="rounded-full"
+  rounded="full"
 />
 ```
 
@@ -142,6 +142,7 @@ Renders an avatar image as an `<img>` element.
 | `border`    | `number`      | No       | `0`      | Border width in pixels                                                      |
 | `borderColor` | `string`    | No       | —        | Border color — hex without `#`                                              |
 | `borderStyle` | `BorderStyle` | No      | `"solid"` | Border style (solid, dashed, dotted, double, none)                          |
+| `rounded`     | `Rounded \| number` | No       | —        | Border radius: none, sm, md, lg, xl, 2xl, 3xl, full, or px                  |
 | `textDecoration` | `TextDecoration` | No   | —        | Decoration: underline, overline, line-through, none                          |
 | `letterSpacing` | `LetterSpacing \| string` | No | —       | Spacing: tighter, tight, normal, wide, wider, widest, or px                 |
 | `blur`         | `number`      | No       | —        | Gaussian blur in px (0–100)                                                 |
